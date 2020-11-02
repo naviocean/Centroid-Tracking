@@ -1,0 +1,3 @@
+include ':CentroidTracking'
+include ':app'
+rootProject.name = "CentroidExample"
