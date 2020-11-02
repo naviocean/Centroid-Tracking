@@ -18,6 +18,6 @@ The implementation of Centroid Tracking for Android
 
 ```
   dependencies {
-	        implementation 'com.github.naviocean:centroid-tracking:Tag'
+	        implementation 'com.github.naviocean:centroid-tracking:1.0'
 	}
 ```
