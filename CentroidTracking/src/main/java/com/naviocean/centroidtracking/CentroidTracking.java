@@ -23,6 +23,10 @@ public class CentroidTracking {
     private Map<Integer, Pair<Integer,Integer>> objects = new HashMap<Integer, Pair<Integer,Integer>>();
     private Map<Integer, Integer> disappeared = new HashMap<Integer, Integer>();
 
+    public CentroidTracking(int maxDisappeared){
+        this.maxDisappeared = maxDisappeared;
+    }
+
     private void register(Pair<Integer,Integer> centroid) {
         int object_ID = this.nextObjectID;
         this.objects.put(object_ID, centroid);

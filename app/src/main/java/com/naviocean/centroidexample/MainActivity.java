@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        tracking = new CentroidTracking();
+        tracking = new CentroidTracking(5);
         RectF r1 = new RectF(114, 182, 152, 240);
         System.out.println(r1.left);
         ArrayList<RectF> list = new ArrayList<>();
